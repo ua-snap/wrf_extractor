@@ -13,7 +13,6 @@ classifiers = [ 'Development Status :: Beta',
 				'Programming Language :: Python :: 3.5',
 				'Natural Language :: English',
 				'Operating System :: POSIX :: Linux',
-				'Programming Language :: Python :: 3',
 				'Topic :: Scientific/Engineering :: GIS',
 				'Topic :: Scientific/Engineering :: WRF Dynamically Downscaled Data for Alaska/Western Canada'	
 				]
