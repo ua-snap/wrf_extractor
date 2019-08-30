@@ -2,5 +2,5 @@ numpy
 ipython
 xarray
 rasterio
-setuptools
+setuptools>=18.5
 pandas
