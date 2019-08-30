@@ -40,11 +40,11 @@ if __name__ == '__main__':
     variable = args.variable
     out_path = args.out_path
 
-    # # # # # TESTING
-    # fn='/workspace/Shared/Tech_Projects/wrf_data/project_data/wrf_data/hourly_fix/t2/t2_hourly_wrf_ERA-Interim_historical_1980.nc'
-    # variable='t2'
-    # out_path='/workspace/Shared/Tech_Projects/wrf_data/project_data/test_to_gtiff'
-    # # # # # # 
+    # # # # TESTING
+    fn='/workspace/Shared/Tech_Projects/wrf_data/project_data/wrf_data/hourly_fix/t2/t2_hourly_wrf_ERA-Interim_historical_1980.nc'
+    variable='t2'
+    out_path='/workspace/Shared/Tech_Projects/wrf_data/project_data/test_to_gtiff'
+    # # # # # 
 
     # pull the variable name from the filename if it is not given.
     if variable is None:

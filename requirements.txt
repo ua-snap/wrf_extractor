@@ -1,4 +1,5 @@
 numpy
+scipy
 ipython
 xarray
 rasterio
