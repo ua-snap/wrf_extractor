@@ -30,9 +30,9 @@ if __name__ == '__main__':
         description='''extract all layers along the time dimension in an HOURLY 
                         SNAP-prepped NetCDF file to compliant GeoTIFFs''',
         )
-    parser.add_argument('-fn', '--fn', action='store', dest='fn', type=str, help='filename (including full path) of the SNAP-cleaned WRF NetCDF file to extract to individual GeoTIFFs')
+    parser.add_argument('-fn', '--fn', dest='fn', type=str, help='filename (including full path) of the SNAP-cleaned WRF NetCDF file to extract to individual GeoTIFFs')
     parser.add_argument('-o', '--out_path', dest='out_path', type=str, help='full directory path to output directory to dump the resulting GeoTIFF files')
-    parser.add_argument('-v', '--variable', action='store', dest='variable', default=None, type=str, help='[optional] abbreviated name of the variable to be extracted from the NetCDF file. -- i.e. t2, pcpt')
+    parser.add_argument('-v', '--variable', dest='variable', default=None, type=str, help='[optional] abbreviated name of the variable to be extracted from the NetCDF file. -- i.e. t2, pcpt')
 
     args = parser.parse_args()
     fn = args.fn
