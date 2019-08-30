@@ -4,7 +4,6 @@ jupyter-client==5.2.4
 jupyter-core==4.4.0
 kiwisolver==1.0.1
 llvmlite==0.29.0
-lmoments3==1.0.4
 matplotlib==2.1.0
 multiprocess==0.70.5
 munch==2.2.0
