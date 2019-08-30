@@ -4,3 +4,4 @@ xarray
 rasterio
 setuptools>=18.5
 pandas
+netCDF4

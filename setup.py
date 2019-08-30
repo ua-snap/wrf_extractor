@@ -1,6 +1,6 @@
 from setuptools import setup
 
-dependencies_list = ['numpy','rasterio','pandas','xarray']
+dependencies_list = ['numpy','rasterio','pandas','xarray','netCDF4']
 scripts_list = ['bin/extract_wrf_to_gtiffs.py']
 
 classifiers = [ 'Development Status :: Beta',
