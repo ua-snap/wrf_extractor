@@ -2,7 +2,7 @@ ipython
 geopandas
 prompt-toolkit<2.1.0,>=2.0.0
 jedi==0.11.0
-joblib==0.11
+joblib==1.2.0
 jupyter-client==5.2.4
 jupyter-core==4.4.0
 kiwisolver==1.0.1
